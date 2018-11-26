@@ -3,7 +3,7 @@ require 'open-uri'
 require 'set'
 # require 'git'
 
-$XWINGDATA_URL = "https://raw.githubusercontent.com/mludowise/xwing-data2/master/"
+$XWINGDATA_URL = "https://raw.githubusercontent.com/guidokessels/xwing-data2/master/"
 $MANIFEST_PATH = "data/manifest.json"
 
 task :default do
