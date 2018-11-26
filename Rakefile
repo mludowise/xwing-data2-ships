@@ -3,7 +3,7 @@ require 'open-uri'
 require 'set'
 # require 'git'
 
-$XWINGDATA_URL = "https://raw.githubusercontent.com/guidokessels/xwing-data2/master/"
+$XWINGDATA_URL = "https://raw.githubusercontent.com/mludowise/xwing-data2/master/"
 $MANIFEST_PATH = "data/manifest.json"
 
 task :default do
@@ -17,7 +17,7 @@ task :default do
   
   # Iterate through factions & pilots
   pilots.each do |faction_ship_paths|
-    faction_ships = {}
+    faction_ships = []
     
     faction = faction_ship_paths["faction"]
     ship_paths = faction_ship_paths["ships"]
@@ -30,14 +30,13 @@ task :default do
       # We need an xws id for each ship
       if xws.nil? || xws == 0
         puts "#{file} has no xws"
-        next
       end
       
       # Remove unnecessary data
       ship.delete("pilots")
       
       # Add ship
-      faction_ships[xws] = ship
+      faction_ships.push(ship)
     end
     
     # Add faction

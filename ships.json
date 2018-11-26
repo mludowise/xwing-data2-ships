@@ -1,6 +1,6 @@
 {
-  "rebelalliance": {
-    "asf01bwing": {
+  "rebelalliance": [
+    {
       "name": "A/SF-01 B-wing",
       "xws": "asf01bwing",
       "ffg": 17,
@@ -63,7 +63,7 @@
         }
       ]
     },
-    "arc170starfighter": {
+    {
       "name": "ARC-170 Starfighter",
       "xws": "arc170starfighter",
       "ffg": 31,
@@ -125,7 +125,7 @@
         }
       ]
     },
-    "attackshuttle": {
+    {
       "name": "Attack Shuttle",
       "xws": "attackshuttle",
       "ffg": 32,
@@ -188,7 +188,7 @@
         }
       ]
     },
-    "auzituckgunship": {
+    {
       "name": "Auzituck Gunship",
       "xws": "auzituckgunship",
       "ffg": 6,
@@ -245,7 +245,7 @@
         }
       ]
     },
-    "btla4ywing": {
+    {
       "name": "BTL-A4 Y-wing",
       "xws": "btla4ywing",
       "ffg": 12,
@@ -306,7 +306,7 @@
         }
       ]
     },
-    "btls8kwing": {
+    {
       "name": "BTL-S8 K-wing",
       "xws": "btls8kwing",
       "ffg": 30,
@@ -367,7 +367,7 @@
         }
       ]
     },
-    "ewing": {
+    {
       "name": "E-wing",
       "xws": "ewing",
       "ffg": 40,
@@ -445,7 +445,7 @@
         }
       ]
     },
-    "hwk290lightfreighter": {
+    {
       "name": "HWK-290 Light Freighter",
       "xws": "hwk290lightfreighter",
       "ffg": 34,
@@ -518,7 +518,7 @@
         }
       ]
     },
-    "modifiedyt1300lightfreighter": {
+    {
       "name": "Modified YT-1300 Light Freighter",
       "xws": "modifiedyt1300lightfreighter",
       "ffg": 1,
@@ -581,7 +581,7 @@
         }
       ]
     },
-    "rz1awing": {
+    {
       "name": "RZ-1 A-wing",
       "xws": "rz1awing",
       "ffg": 35,
@@ -648,7 +648,7 @@
         }
       ]
     },
-    "sheathipedeclassshuttle": {
+    {
       "name": "Sheathipede-class Shuttle",
       "xws": "sheathipedeclassshuttle",
       "ffg": 8,
@@ -707,7 +707,7 @@
         }
       ]
     },
-    "t65xwing": {
+    {
       "name": "T-65 X-wing",
       "xws": "t65xwing",
       "ffg": 33,
@@ -766,7 +766,7 @@
         }
       ]
     },
-    "tielnfighter": {
+    {
       "name": "TIE/ln Fighter",
       "xws": "tielnfighter",
       "ffg": 11,
@@ -820,7 +820,7 @@
         }
       ]
     },
-    "ut60duwing": {
+    {
       "name": "UT-60D U-wing",
       "xws": "ut60duwing",
       "ffg": 15,
@@ -875,7 +875,7 @@
         }
       ]
     },
-    "vcx100lightfreighter": {
+    {
       "name": "VCX-100 Light Freighter",
       "xws": "vcx100lightfreighter",
       "ffg": 23,
@@ -934,7 +934,7 @@
         }
       ]
     },
-    "yt2400lightfreighter": {
+    {
       "name": "YT-2400 Light Freighter",
       "xws": "yt2400lightfreighter",
       "ffg": 5,
@@ -997,7 +997,7 @@
         }
       ]
     },
-    "z95af4headhunter": {
+    {
       "name": "Z-95-AF4 Headhunter",
       "xws": "z95af4headhunter",
       "ffg": 38,
@@ -1055,9 +1055,9 @@
         }
       ]
     }
-  },
-  "scumandvillainy": {
-    "aggressorassaultfighter": {
+  ],
+  "scumandvillainy": [
+    {
       "name": "Aggressor Assault Fighter",
       "xws": "aggressorassaultfighter",
       "ffg": 21,
@@ -1120,7 +1120,7 @@
         }
       ]
     },
-    "btla4ywing": {
+    {
       "name": "BTL-A4 Y-wing",
       "xws": "btla4ywing",
       "ffg": 12,
@@ -1181,7 +1181,7 @@
         }
       ]
     },
-    "customizedyt1300lightfreighter": {
+    {
       "name": "Customized YT-1300 Light Freighter",
       "xws": "customizedyt1300lightfreighter",
       "ffg": 47,
@@ -1244,7 +1244,7 @@
         }
       ]
     },
-    "escapecraft": {
+    {
       "name": "Escape Craft",
       "xws": "escapecraft",
       "ffg": 48,
@@ -1299,7 +1299,7 @@
         }
       ]
     },
-    "fangfighter": {
+    {
       "name": "Fang Fighter",
       "xws": "fangfighter",
       "ffg": 36,
@@ -1366,7 +1366,7 @@
         }
       ]
     },
-    "firesprayclasspatrolcraft": {
+    {
       "name": "Firespray-class Patrol Craft",
       "xws": "firesprayclasspatrolcraft",
       "ffg": 10,
@@ -1434,7 +1434,7 @@
         }
       ]
     },
-    "g1astarfighter": {
+    {
       "name": "G-1A Starfighter",
       "xws": "g1astarfighter",
       "ffg": 22,
@@ -1493,7 +1493,7 @@
         }
       ]
     },
-    "hwk290lightfreighter": {
+    {
       "name": "HWK-290 Light Freighter",
       "xws": "hwk290lightfreighter",
       "ffg": 34,
@@ -1566,7 +1566,7 @@
         }
       ]
     },
-    "jumpmaster5000": {
+    {
       "name": "JumpMaster 5000",
       "xws": "jumpmaster5000",
       "ffg": 45,
@@ -1632,7 +1632,7 @@
         }
       ]
     },
-    "kihraxzfighter": {
+    {
       "name": "Kihraxz Fighter",
       "xws": "kihraxzfighter",
       "ffg": 7,
@@ -1690,7 +1690,7 @@
         }
       ]
     },
-    "lancerclasspursuitcraft": {
+    {
       "name": "Lancer-class Pursuit Craft",
       "xws": "lancerclasspursuitcraft",
       "ffg": 42,
@@ -1757,7 +1757,7 @@
         }
       ]
     },
-    "m12lkimogilafighter": {
+    {
       "name": "M12-L Kimogila Fighter",
       "xws": "m12lkimogilafighter",
       "ffg": 39,
@@ -1819,7 +1819,7 @@
         }
       ]
     },
-    "m3ainterceptor": {
+    {
       "name": "M3-A Interceptor",
       "xws": "m3ainterceptor",
       "ffg": 44,
@@ -1881,7 +1881,7 @@
         }
       ]
     },
-    "modifiedtielnfighter": {
+    {
       "name": "Modified TIE/ln Fighter",
       "xws": "modifiedtielnfighter",
       "size": "Small",
@@ -1933,7 +1933,7 @@
         }
       ]
     },
-    "quadrijettransferspacetug": {
+    {
       "name": "Quadrijet Transfer Spacetug",
       "xws": "quadrijettransferspacetug",
       "ffg": 9,
@@ -1989,7 +1989,7 @@
         }
       ]
     },
-    "scurrgh6bomber": {
+    {
       "name": "Scurrg H-6 Bomber",
       "xws": "scurrgh6bomber",
       "ffg": 4,
@@ -2047,7 +2047,7 @@
         }
       ]
     },
-    "starviperclassattackplatform": {
+    {
       "name": "StarViper-class Attack Platform",
       "xws": "starviperclassattackplatform",
       "ffg": 3,
@@ -2117,7 +2117,7 @@
         }
       ]
     },
-    "yv666lightfreighter": {
+    {
       "name": "YV-666 Light Freighter",
       "xws": "yv666lightfreighter",
       "ffg": 24,
@@ -2174,7 +2174,7 @@
         }
       ]
     },
-    "z95af4headhunter": {
+    {
       "name": "Z-95-AF4 Headhunter",
       "xws": "z95af4headhunter",
       "ffg": 38,
@@ -2232,9 +2232,9 @@
         }
       ]
     }
-  },
-  "galacticempire": {
-    "alphaclassstarwing": {
+  ],
+  "galacticempire": [
+    {
       "name": "Alpha-class Star Wing",
       "xws": "alphaclassstarwing",
       "ffg": 14,
@@ -2294,7 +2294,7 @@
         }
       ]
     },
-    "lambdaclasst4ashuttle": {
+    {
       "name": "Lambda-class T-4a Shuttle",
       "xws": "lambdaclasst4ashuttle",
       "ffg": 26,
@@ -2357,7 +2357,7 @@
         }
       ]
     },
-    "tieadvancedv1": {
+    {
       "name": "TIE Advanced v1",
       "xws": "tieadvancedv1",
       "ffg": 25,
@@ -2434,7 +2434,7 @@
         }
       ]
     },
-    "tieadvancedx1": {
+    {
       "name": "TIE Advanced x1",
       "xws": "tieadvancedx1",
       "ffg": 13,
@@ -2498,9 +2498,9 @@
         }
       ]
     },
-    "tieinterceptor": {
+    {
       "name": "TIE Interceptor",
-      "xws": "tieinterceptor",
+      "xws": "tieininterceptor",
       "ffg": 41,
       "size": "Small",
       "dial": [
@@ -2557,7 +2557,7 @@
         }
       ]
     },
-    "tiereaper": {
+    {
       "name": "TIE Reaper",
       "xws": "tiereaper",
       "ffg": 43,
@@ -2619,7 +2619,7 @@
         }
       ]
     },
-    "tieddefender": {
+    {
       "name": "TIE/D Defender",
       "xws": "tieddefender",
       "ffg": 18,
@@ -2687,7 +2687,7 @@
         }
       ]
     },
-    "tieagaggressor": {
+    {
       "name": "TIE/ag Aggressor",
       "xws": "tieagaggressor",
       "ffg": 29,
@@ -2748,7 +2748,7 @@
         }
       ]
     },
-    "tiecapunisher": {
+    {
       "name": "TIE/ca Punisher",
       "xws": "tiecapunisher",
       "ffg": 20,
@@ -2817,7 +2817,7 @@
         }
       ]
     },
-    "tielnfighter": {
+    {
       "name": "TIE/ln Fighter",
       "xws": "tielnfighter",
       "ffg": 11,
@@ -2871,7 +2871,7 @@
         }
       ]
     },
-    "tiephphantom": {
+    {
       "name": "TIE/ph Phantom",
       "xws": "tiephphantom",
       "ffg": 27,
@@ -2934,7 +2934,7 @@
         }
       ]
     },
-    "tiesabomber": {
+    {
       "name": "TIE/sa Bomber",
       "xws": "tiesabomber",
       "ffg": 19,
@@ -2996,7 +2996,7 @@
         }
       ]
     },
-    "tieskstriker": {
+    {
       "name": "TIE/sk Striker",
       "xws": "tieskstriker",
       "ffg": 16,
@@ -3050,7 +3050,7 @@
         }
       ]
     },
-    "vt49decimator": {
+    {
       "name": "VT-49 Decimator",
       "xws": "vt49decimator",
       "ffg": 28,
@@ -3116,9 +3116,9 @@
         }
       ]
     }
-  },
-  "resistance": {
-    "mg100starfortresssf17": {
+  ],
+  "resistance": [
+    {
       "name": "MG-100 StarFortress SF-17",
       "xws": "mg100starfortresssf17",
       "size": "Large",
@@ -3150,7 +3150,7 @@
         }
       ]
     },
-    "scavengedyt1300": {
+    {
       "name": "Scavenged YT-1300",
       "xws": "scavengedyt1300",
       "size": "Large",
@@ -3212,7 +3212,7 @@
         }
       ]
     },
-    "rz2awing": {
+    {
       "name": "RZ-2 A-wing",
       "xws": "rz2awing",
       "size": "Small",
@@ -3266,7 +3266,7 @@
         }
       ]
     },
-    "t70xwing": {
+    {
       "name": "T-70 X-wing",
       "xws": "t70xwing",
       "size": "Small",
@@ -3320,9 +3320,9 @@
         }
       ]
     }
-  },
-  "firstorder": {
-    "tiesilencer": {
+  ],
+  "firstorder": [
+    {
       "name": "TIE Silencer",
       "xws": "tiesilencer",
       "size": "Small",
@@ -3357,7 +3357,7 @@
         }
       ]
     },
-    "tiefofighter": {
+    {
       "name": "TIE/fo Fighter",
       "xws": "tiefofighter",
       "size": "Small",
@@ -3419,7 +3419,7 @@
         }
       ]
     },
-    "upsilonclassshuttle": {
+    {
       "name": "Upsilon-class Shuttle",
       "xws": "upsilonclassshuttle",
       "size": "Large",
@@ -3457,5 +3457,5 @@
         }
       ]
     }
-  }
+  ]
 }
