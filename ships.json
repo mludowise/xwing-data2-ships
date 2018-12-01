@@ -237,7 +237,7 @@
         },
         {
           "difficulty": "White",
-          "type": "Coordinate"
+          "type": "Reinforce"
         },
         {
           "difficulty": "Red",
@@ -2500,7 +2500,7 @@
     },
     {
       "name": "TIE Interceptor",
-      "xws": "tieinterceptor",
+      "xws": "tieininterceptor",
       "ffg": 41,
       "size": "Small",
       "dial": [
@@ -3170,8 +3170,7 @@
         "3NW",
         "3YW",
         "3PR",
-        "4FW",
-        "4KR"
+        "4FR"
       ],
       "faction": "Resistance",
       "stats": [
@@ -3323,41 +3322,6 @@
   ],
   "firstorder": [
     {
-      "name": "TIE Silencer",
-      "xws": "tiesilencer",
-      "size": "Small",
-      "dial": [
-        "1TW",
-        "1YW",
-        "2TB",
-        "2BB",
-        "2FB",
-        "2NB",
-        "2YB",
-        "3ER",
-        "3TW",
-        "3BW",
-        "3FB",
-        "3NW",
-        "3YW",
-        "3RR",
-        "4FB",
-        "4KR",
-        "5FB"
-      ],
-      "faction": "First Order",
-      "stats": [
-        {
-          "type": "agility",
-          "value": 0
-        },
-        {
-          "type": "hull",
-          "value": 0
-        }
-      ]
-    },
-    {
       "name": "TIE/fo Fighter",
       "xws": "tiefofighter",
       "size": "Small",
@@ -3420,6 +3384,82 @@
       ]
     },
     {
+      "name": "TIE/sf Fighter",
+      "xws": "tiesffighter",
+      "size": "Small",
+      "dial": [
+        "1TR",
+        "1BB",
+        "1FB",
+        "1NB",
+        "1YR",
+        "2TW",
+        "2BB",
+        "2FB",
+        "2NB",
+        "2YW",
+        "3LR",
+        "3TW",
+        "3BW",
+        "3FB",
+        "3NW",
+        "3YW",
+        "3PR",
+        "4FW",
+        "5FW"
+      ],
+      "faction": "First Order",
+      "stats": [
+        {
+          "type": "agility",
+          "value": 2
+        },
+        {
+          "type": "hull",
+          "value": 3
+        },
+        {
+          "type": "shields",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "TIE Silencer",
+      "xws": "tievnsilencer",
+      "size": "Small",
+      "dial": [
+        "1TW",
+        "1YW",
+        "2TB",
+        "2BB",
+        "2FB",
+        "2NB",
+        "2YB",
+        "3ER",
+        "3TW",
+        "3BW",
+        "3FB",
+        "3NW",
+        "3YW",
+        "3RR",
+        "4FB",
+        "4KR",
+        "5FB"
+      ],
+      "faction": "First Order",
+      "stats": [
+        {
+          "type": "agility",
+          "value": 0
+        },
+        {
+          "type": "hull",
+          "value": 0
+        }
+      ]
+    },
+    {
       "name": "Upsilon-class Shuttle",
       "xws": "upsilonclassshuttle",
       "size": "Large",
@@ -3454,6 +3494,354 @@
         {
           "type": "shields",
           "value": 6
+        }
+      ]
+    }
+  ],
+  "separatistalliance": [
+    {
+      "name": "Vulture-class Droid Fighter",
+      "xws": "vultureclassdroidfighter",
+      "size": "Small",
+      "dial": [
+        "1TW",
+        "1YW",
+        "1KR",
+        "2ER",
+        "2TB",
+        "2BW",
+        "2FB",
+        "2NW",
+        "2YB",
+        "2RR",
+        "3TW",
+        "3BR",
+        "3FB",
+        "3NR",
+        "3YW",
+        "4FB",
+        "5FW"
+      ],
+      "faction": "Separatist Alliance",
+      "stats": [
+        {
+          "arc": "Front Arc",
+          "type": "attack",
+          "value": 2
+        },
+        {
+          "type": "agility",
+          "value": 2
+        },
+        {
+          "type": "hull",
+          "value": 3
+        }
+      ],
+      "actions": [
+        {
+          "difficulty": "White",
+          "type": "Calculate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll",
+          "linked": {
+            "difficulty": "Red",
+            "type": "Calculate"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Belbullab-22 starfighter",
+      "xws": "belbullabstarfighter",
+      "size": "Small",
+      "dial": [
+        "1TW",
+        "1BW",
+        "1NW",
+        "1YW",
+        "2TW",
+        "2BB",
+        "2FB",
+        "2NB",
+        "2YW",
+        "3LR",
+        "3TR",
+        "3BW",
+        "3FB",
+        "3NW",
+        "3YR",
+        "3PR",
+        "3KR",
+        "4FW",
+        "5FW"
+      ],
+      "faction": "Separatist Alliance",
+      "stats": [
+        {
+          "type": "shield",
+          "value": 2
+        }
+      ],
+      "actions": [
+
+      ]
+    },
+    {
+      "name": "Sith Infiltrator",
+      "xws": "sithinfiltrator",
+      "size": "Large",
+      "dial": [
+        "1TR",
+        "1BB",
+        "1FB",
+        "1NB",
+        "1YR",
+        "2PR",
+        "2TW",
+        "2BB",
+        "2FB",
+        "2NB",
+        "2YW",
+        "2LR",
+        "3TW",
+        "2BW",
+        "3FB",
+        "3NW",
+        "3YW",
+        "4FW",
+        "5KR"
+      ],
+      "faction": "Separatist Alliance",
+      "stats": [
+        {
+          "arc": "Front Arc",
+          "type": "attack",
+          "value": 3
+        },
+        {
+          "type": "agility",
+          "value": 1
+        },
+        {
+          "type": "hull",
+          "value": 6
+        },
+        {
+          "type": "shields",
+          "value": 4
+        }
+      ],
+      "actions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Barrel Roll"
+        }
+      ]
+    }
+  ],
+  "galacticrepublic": [
+    {
+      "name": "ARC-170 Starfighter",
+      "xws": "arc170starfighter",
+      "size": "Medium",
+      "dial": [
+        "1BB",
+        "1FB",
+        "1NB",
+        "2TW",
+        "2BB",
+        "2FB",
+        "2NB",
+        "2YW",
+        "3TR",
+        "3BW",
+        "3FW",
+        "3NW",
+        "3YR",
+        "4FR",
+        "4KR"
+      ],
+      "faction": "Galactic Republic",
+      "stats": [
+        {
+          "arc": "Front Arc",
+          "type": "attack",
+          "value": 3
+        },
+        {
+          "arc": "Rear Arc",
+          "type": "attack",
+          "value": 2
+        },
+        {
+          "type": "agility",
+          "value": 1
+        },
+        {
+          "type": "hull",
+          "value": 6
+        },
+        {
+          "type": "shields",
+          "value": 3
+        }
+      ],
+      "actions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "Red",
+          "type": "Barrel Roll"
+        }
+      ]
+    },
+    {
+      "name": "Delta-7 Aethersprite",
+      "xws": "delta7aethersprite",
+      "size": "Small",
+      "dial": [
+        "1TW",
+        "1BB",
+        "1NB",
+        "1YW",
+        "2LR",
+        "2TW",
+        "2BB",
+        "2FB",
+        "2NB",
+        "2YW",
+        "2PR",
+        "3BW",
+        "3FB",
+        "3NW",
+        "4FW",
+        "4KR",
+        "5FW",
+        "5KR"
+      ],
+      "faction": "Galactic Republic",
+      "stats": [
+        {
+          "arc": "Front Arc",
+          "type": "attack",
+          "value": 2
+        },
+        {
+          "type": "agility",
+          "value": 3
+        },
+        {
+          "type": "hull",
+          "value": 3
+        },
+        {
+          "type": "shields",
+          "value": 1
+        }
+      ],
+      "actions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "Purple",
+          "type": "Evade"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "White",
+          "type": "Boost"
+        }
+      ]
+    },
+    {
+      "name": "V-19 Torrent Starfighter",
+      "xws": "v19torrentstarfighter",
+      "size": "Small",
+      "dial": [
+        "1TR",
+        "1BB",
+        "1FB",
+        "1NB",
+        "1YR",
+        "2ER",
+        "2TW",
+        "2BW",
+        "2FB",
+        "2NW",
+        "2YW",
+        "2RR",
+        "3BR",
+        "3FB",
+        "3NR",
+        "3KR",
+        "4FW"
+      ],
+      "faction": "Galactic Republic",
+      "stats": [
+        {
+          "type": "attack",
+          "arc": "Front Arc",
+          "value": 2
+        },
+        {
+          "type": "agility",
+          "value": 2
+        },
+        {
+          "type": "hull",
+          "value": 5
+        }
+      ],
+      "actions": [
+        {
+          "type": "Focus",
+          "difficulty": "White"
+        },
+        {
+          "type": "Evade",
+          "difficulty": "White"
+        },
+        {
+          "type": "Lock",
+          "difficulty": "White"
+        },
+        {
+          "type": "Barrel Roll",
+          "difficulty": "White",
+          "linked": {
+            "type": "Evade",
+            "difficulty": "Red"
+          }
         }
       ]
     }
