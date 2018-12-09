@@ -3141,12 +3141,44 @@
       "faction": "Resistance",
       "stats": [
         {
+          "arc": "Front Arc",
+          "type": "attack",
+          "value": 3
+        },
+        {
+          "arc": "Double Turret Arc",
+          "type": "attack",
+          "value": 2
+        },
+        {
           "type": "agility",
-          "value": 0
+          "value": 1
         },
         {
           "type": "hull",
-          "value": 0
+          "value": 9
+        },
+        {
+          "type": "shields",
+          "value": 3
+        }
+      ],
+      "actions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Rotate Arc"
+        },
+        {
+          "difficulty": "White",
+          "type": "Reload"
         }
       ]
     },
@@ -3247,7 +3279,11 @@
         },
         {
           "type": "hull",
-          "value": 0
+          "value": 2
+        },
+        {
+          "type": "shields",
+          "value": 2
         }
       ],
       "actions": [
@@ -3302,6 +3338,10 @@
         {
           "type": "hull",
           "value": 4
+        },
+        {
+          "type": "shields",
+          "value": 3
         }
       ],
       "actions": [
@@ -3411,6 +3451,16 @@
       "faction": "First Order",
       "stats": [
         {
+          "arc": "Front Arc",
+          "type": "attack",
+          "value": 2
+        },
+        {
+          "arc": "Single Turret Arc",
+          "type": "attack",
+          "value": 2
+        },
+        {
           "type": "agility",
           "value": 2
         },
@@ -3421,6 +3471,40 @@
         {
           "type": "shields",
           "value": 3
+        }
+      ],
+      "actions": [
+        {
+          "difficulty": "White",
+          "linked": {
+            "difficulty": "White",
+            "type": "Rotate Arc"
+          },
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "linked": {
+            "difficulty": "White",
+            "type": "Rotate Arc"
+          },
+          "type": "Evade"
+        },
+        {
+          "difficulty": "White",
+          "linked": {
+            "difficulty": "White",
+            "type": "Rotate Arc"
+          },
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "linked": {
+            "difficulty": "White",
+            "type": "Rotate Arc"
+          },
+          "type": "Barrel Roll"
         }
       ]
     },
@@ -3450,17 +3534,44 @@
       "faction": "First Order",
       "stats": [
         {
+          "arc": "Front Arc",
+          "type": "attack",
+          "value": 3
+        },
+        {
           "type": "agility",
-          "value": 0
+          "value": 3
         },
         {
           "type": "hull",
-          "value": 0
+          "value": 4
+        },
+        {
+          "type": "shields",
+          "value": 2
+        }
+      ],
+      "actions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Evade"
+        },
+        {
+          "difficulty": "White",
+          "type": "Barrel Roll"
+        },
+        {
+          "difficulty": "White",
+          "type": "Boost"
         }
       ]
     },
     {
-      "name": "Upsilon-class Shuttle",
+      "name": "Upsilon-class command shuttle",
       "xws": "upsilonclassshuttle",
       "size": "Large",
       "dial": [
@@ -3484,8 +3595,13 @@
       "faction": "First Order",
       "stats": [
         {
+          "type": "attack",
+          "value": "4",
+          "arc": "Front Arc"
+        },
+        {
           "type": "agility",
-          "value": 0
+          "value": 1
         },
         {
           "type": "hull",
@@ -3494,6 +3610,28 @@
         {
           "type": "shields",
           "value": 6
+        }
+      ],
+      "actions": [
+        {
+          "difficulty": "White",
+          "type": "Focus"
+        },
+        {
+          "difficulty": "White",
+          "type": "Lock"
+        },
+        {
+          "difficulty": "White",
+          "type": "Reinforce"
+        },
+        {
+          "difficulty": "White",
+          "type": "Coordinate"
+        },
+        {
+          "difficulty": "White",
+          "type": "Jam"
         }
       ]
     }
